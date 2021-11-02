@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="44.187">
+<testcase classname="Testar login com erro em ambiente acessivel para usuario surdo" name="login no central do interpretes com email nao cadastrado" time="19.437">
+<system-out><![CDATA[Given navegador aberto......................................................passed
+And logado na central de interpretes........................................passed
+When Usuario assiste ao video sinalizando o preenchimento do email..........passed
+And preenche o campo com o email............................................passed
+And assiste ao video sinalizando o preenchimento da senha...................passed
+And preenche o campo com senha..............................................passed
+And clica no botao Entrar...................................................passed
+Then sistema entra na tela inicial..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Teste de preechimento do formulario do Google Forms" name="Validar o preenchimento de um formulario simples" time="14.307">
+<system-out><![CDATA[Given navegador aberto em formulario do Google..............................passed
+When usuario preenche o nome................................................passed
+And preenche o email........................................................passed
+And preenche o assunto......................................................passed
+And preenche a mensagem.....................................................passed
+And envia o formulario......................................................passed
+Then o formulario deve ser enviado com sucesso..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Componente para testar a funcionalidade de pesquisa do Google" name="Validar se a ferramenta de pesquisa do Google esta funcionando" time="10.319">
+<system-out><![CDATA[Given navegador esta aberto.................................................passed
+And usuario esta na pagina inicial do Google................................passed
+When usuario digita um texto na caixa de pesquisa...........................passed
+And pressiona a tecla Enter.................................................passed
+Then usuario e direcionado para os resultados da pesquisa...................passed
+]]></system-out>
+</testcase>
+</testsuite>

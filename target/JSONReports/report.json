@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-31T21:49:12.162Z",
+        "line": 3,
+        "name": "login no central do interpretes com email nao cadastrado",
+        "description": "",
+        "id": "testar-login-com-erro-em-ambiente-acessivel-para-usuario-surdo;login-no-central-do-interpretes-com-email-nao-cadastrado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1914000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navegador aberto",
+            "match": {
+              "location": "stepsDefinition.LoginCI.navegador_aberto()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2626000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "logado na central de interpretes",
+            "match": {
+              "location": "stepsDefinition.LoginCI.logado_na_central_de_interpretes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4044000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Usuario assiste ao video sinalizando o preenchimento do email",
+            "match": {
+              "location": "stepsDefinition.LoginCI.usuario_assiste_ao_video_sinalizando_o_preenchimento_do_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2068000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preenche o campo com o email",
+            "match": {
+              "location": "stepsDefinition.LoginCI.preenche_o_campo_com_o_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4041000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "assiste ao video sinalizando o preenchimento da senha",
+            "match": {
+              "location": "stepsDefinition.LoginCI.assiste_ao_video_sinalizando_o_preenchimento_da_senha()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2052000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preenche o campo com senha",
+            "match": {
+              "location": "stepsDefinition.LoginCI.preenche_o_campo_com_senha()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2621000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clica no botao Entrar",
+            "match": {
+              "location": "stepsDefinition.LoginCI.clica_no_botao_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "sistema entra na tela inicial",
+            "match": {
+              "location": "stepsDefinition.LoginCI.sistema_entra_na_tela_inicial()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testar login com erro em ambiente acessivel para usuario surdo",
+    "description": "",
+    "id": "testar-login-com-erro-em-ambiente-acessivel-para-usuario-surdo",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/loginCI.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-31T21:49:31.607Z",
+        "line": 3,
+        "name": "Validar o preenchimento de um formulario simples",
+        "description": "",
+        "id": "teste-de-preechimento-do-formulario-do-google-forms;validar-o-preenchimento-de-um-formulario-simples",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2124000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navegador aberto em formulario do Google",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.navegador_aberto_em_formulario_do_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2658000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "usuario preenche o nome",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.usuario_preenche_o_nome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2126000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preenche o email",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.preenche_o_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2121000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preenche o assunto",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.preenche_o_assunto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2162000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preenche a mensagem",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.preenche_a_mensagem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 431000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "envia o formulario",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.envia_o_formulario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2682000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o formulario deve ser enviado com sucesso",
+            "match": {
+              "location": "stepsDefinition.PreenchimentoFormularioSteps.o_formulario_deve_ser_enviado_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Teste de preechimento do formulario do Google Forms",
+    "description": "",
+    "id": "teste-de-preechimento-do-formulario-do-google-forms",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/preenchimentoGoogleForm.feature",
+    "tags": []
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-31T21:49:45.918Z",
+        "line": 7,
+        "name": "Validar se a ferramenta de pesquisa do Google esta funcionando",
+        "description": "",
+        "id": "componente-para-testar-a-funcionalidade-de-pesquisa-do-google;validar-se-a-ferramenta-de-pesquisa-do-google-esta-funcionando",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1170000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navegador esta aberto",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.navegador_esta_aberto()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1122000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "usuario esta na pagina inicial do Google",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.usuario_esta_na_pagina_inicial_do_google()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2071000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "usuario digita um texto na caixa de pesquisa",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.usuario_digita_um_texto_na_caixa_de_pesquisa()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3252000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "pressiona a tecla Enter",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.pressiona_a_tecla_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "usuario e direcionado para os resultados da pesquisa",
+            "match": {
+              "location": "stepsDefinition.GoogleSearchSteps.usuario_e_direcionado_para_os_resultados_da_pesquisa()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Componente para testar a funcionalidade de pesquisa do Google",
+    "description": "",
+    "id": "componente-para-testar-a-funcionalidade-de-pesquisa-do-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/searchGoogle.feature",
+    "tags": []
+  }
+]
